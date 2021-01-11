@@ -6,15 +6,18 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/button"
+        style="@style/style_button"
+        android:clickable="true"
+        android:focusable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingStart="35dp"
-        android:paddingEnd="35dp"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
+        android:layout_gravity="center"
         android:text="I WANT AN ANSWER"
-        android:textColor="#1e252c"
-        android:fontFamily="@font/montserrat"
-        android:layout_gravity="center" />
+        android:elevation="15dp"
+        android:translationZ="10dp"
+        android:stateListAnimator="@null"
+        />
+
 
 </LinearLayout>
