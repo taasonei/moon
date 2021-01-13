@@ -23,9 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/buttonText"
-        android:elevation="15dp"
-        android:translationZ="10dp"
-        android:stateListAnimator="@null"
+        android:stateListAnimator="@animator/button_elevation"
         />
 
 
