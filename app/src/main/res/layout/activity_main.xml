@@ -5,6 +5,17 @@
     android:background="@drawable/background_stars"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:textSize="16sp"
+        android:textColor="#1e252c"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
     <Button
         android:id="@+id/button"
         style="@style/style_button"
@@ -13,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="I WANT AN ANSWER"
+        android:text="@string/buttonText"
         android:elevation="15dp"
         android:translationZ="10dp"
         android:stateListAnimator="@null"
