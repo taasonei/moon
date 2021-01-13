@@ -8,10 +8,8 @@
     </style>
 
     <style name="style_button" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:background">@drawable/button_rounded</item>
-        <item name="colorButtonNormal">@color/colorPrimary</item>
-        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:textColor">@color/colors_selector_textview</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/montserrat_black</item>
     </style>
