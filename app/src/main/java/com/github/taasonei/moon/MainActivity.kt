@@ -28,11 +28,11 @@ class MainActivity : AppCompatActivity(), View {
 
         animationView.addAnimatorListener(object : Animator.AnimatorListener {
             override fun onAnimationStart(animation: Animator?) {
-                presenter.notifyAnimationStateChanged()
+                presenter.notifyAnimationStart()
             }
 
             override fun onAnimationEnd(animation: Animator?) {
-                presenter.notifyAnimationStateChanged()
+                presenter.notifyAnimationEnd()
             }
 
             override fun onAnimationCancel(animation: Animator?) {}

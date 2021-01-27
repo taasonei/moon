@@ -14,7 +14,11 @@ class Presenter(
         view.startAnimation()
     }
 
-    fun notifyAnimationStateChanged() {
+    fun notifyAnimationStart() {
+        view.toggleButton()
+    }
+
+    fun notifyAnimationEnd() {
         view.toggleButton()
     }
 
