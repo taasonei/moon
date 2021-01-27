@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Moon</string>
     <string name="buttonText">ХОЧУ ЗНАТЬ ОТВЕТ</string>
+    <string name="ask_question_tv">ЗАДАЙ ВОПРОС</string>
 </resources>

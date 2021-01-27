@@ -4,12 +4,22 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background_stars"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_question_tv"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:fontFamily="@font/montserrat_black"
+
+        android:layout_marginBottom="65dp"/>
 
     <FrameLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:layout_width="293dp"
@@ -39,11 +49,12 @@
     </FrameLayout>
 
     <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
         android:id="@+id/button"
         style="@style/style_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:text="@string/buttonText"
         android:stateListAnimator="@animator/button_elevation"
         />
