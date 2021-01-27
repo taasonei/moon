@@ -11,6 +11,11 @@ class Presenter(
     fun generateAnswer() {
         val answers: Array<String> = context.resources.getStringArray(R.array.answers)
         view.setAnswer(answers[Random.nextInt(2)])
+        view.startAnimation()
+    }
+
+    fun notifyAnimationStateChanged() {
+        view.toggleButton()
     }
 
 }

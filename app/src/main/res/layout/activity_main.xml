@@ -22,7 +22,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_black"
-            android:text="ДА"
             android:textSize="100sp"
             android:textColor="@color/colorPrimary"
             android:layout_gravity="center"
@@ -31,17 +30,13 @@
             />
 
         <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/animation_view"
+            android:id="@+id/animationView"
             android:layout_width="315dp"
             android:layout_height="315dp"
             app:lottie_rawRes="@raw/moon"
-            app:lottie_autoPlay="true"
             android:layout_gravity="center"/>
 
     </FrameLayout>
-
-
-
 
     <Button
         android:id="@+id/button"
@@ -52,6 +47,5 @@
         android:text="@string/buttonText"
         android:stateListAnimator="@animator/button_elevation"
         />
-
 
 </LinearLayout>
