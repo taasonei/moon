@@ -7,6 +7,5 @@
         android:fontWeight="900"
         app:font="@font/montserrat_black"
         app:fontStyle="normal"
-        app:fontWeight="900"
-        />
+        app:fontWeight="900" />
 </font-family>
